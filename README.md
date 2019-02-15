@@ -5,7 +5,7 @@ In this folder there are differents files:
 
 extractor.c is my code of the Trevisan Extractor; 
 
-trevisan.c is the library in which there are the important functions to be able to execute the code (I thank James S. Plank - plank@cs.utk.edu - http://www.cs.utk.edu/~plank from whom I took the necessary functions to be able to do the calculations in small finite fields, while the functions to be able to do the calculations in finite fields of arbitrary size is my work.);
+trevisan.c is the library in which there are the important functions to be able to execute the code (I thank James S. Plank - plank@cs.utk.edu - http://www.cs.utk.edu/~plank from whom I took the necessary functions to be able to do the calculations in small finite fields, while the functions to be able to do the calculations in finite fields of arbitrary size is my work);
 
 trevisan.h is the header file;
 
