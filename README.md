@@ -17,4 +17,4 @@ When the extractor.c code is compiled and executed, it requires input data: the 
 
 
 
-P.S. If you have a segmentation fault after the input of the data, try to change sizeof(bool) with sizeof(int) in lines 191 and 197.
+P.S. If you have a segmentation fault after the input of the data, try to change sizeof(bool) with sizeof(int) in lines 191 and 197 of file extractor.c 
