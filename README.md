@@ -14,3 +14,5 @@ polinomi_irriducibili.txt is the file in which the irreducible polynomials are s
 source.txt and seed.txt are two sample files because the code requests in input a source file and a seed file. Obviously these two files will have to be replaced with your own source and seed files (always in the .txt extension containing zeros and ones).
 
 When the extractor.c code is compiled and executed, it requires input data: the name of the source file, the name of the seed file, the value of the min-entropy per bit of the source and finally the desired error per bit (the smaller the error the more uniform the output string will be, but the longer the execution time will be).
+
+P.S. If you have a segmentation fault after the input of the data, try to change sizeof(bool) with sizeof(int) in lines 191 and 197.
